@@ -1,0 +1,49 @@
+.ig-posts-carousel {
+    margin: 5px -8px ;
+    padding: 0;
+    display: block;
+    .item {
+        padding: 0;
+        margin: 8px;
+        outline: none;
+        cursor: all-scroll;
+        display: inline-block;
+        width: 100%;
+        overflow: none;
+        background: transparent;
+        border: 1px solid transparent;
+        .image {
+            margin: 0 0 10px 0;
+            padding: 0;
+            border-radius: 0;
+            -wbkit-border-radius:0;
+            -moz-border-radius: 0;
+        }
+        .title {
+            margin: 5px 0;
+            padding: 0;
+            box-shadow: none;
+            text-shadow: none;
+            font-size: 22px;
+            line-height: 1.7;
+            a {
+                @extend .title;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .excerpt {
+            padding: 0;
+            margin: 5px 0;
+            font-family: inherit;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+        .date {
+            padding: 0;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #888;
+        }
+    }
+}
